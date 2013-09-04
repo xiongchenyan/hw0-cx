@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.cmu.lti.11791.f13.hw0</groupId>
 	<artifactId>hw0-cx</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
+	<version>0.0.9-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:git@github.com:xiongchenyan/hw0-cx.git</connection>
 		<developerConnection>scm:git:git@github.com:xiongchenyan/hw0-cx.git</developerConnection>
@@ -17,14 +17,12 @@
 	<distributionManagement>
 		<repository>
 			<id>deployment</id>
-			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/
-				course-releases
+			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/course-releases
 			</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/
-				course-snapshots
+			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/course-snapshots
 			</url>
 		</snapshotRepository>
 	</distributionManagement>
